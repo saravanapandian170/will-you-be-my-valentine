@@ -150,9 +150,9 @@ export default function App() {
                 Yes
               </button>
 
-              <button className="no" ref={noRef}>
+              <div className="no" ref={noRef}>
                 No
-              </button>
+              </div>
             </div>
           </>
         ) : (
